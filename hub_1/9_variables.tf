@@ -68,10 +68,10 @@ variable "hub_1_FMG_LAN_IP" {}
 # FortiGate AMI
 
 variable "FGT_VM_AMI" {
-  description = "FortiGate FGTVM-AWS(PAYG) - 7.0.1 AMI"
+  description = "FortiGate FGTVM-AWS(PAYG) - 7.0.2 AMI"
   type        = map
   default = {
-    us-east-1 = "ami-0b9c648555f605b8a"
+    us-east-1 = "ami-0f37125f0c38e8ea8"
   }
 }
 
